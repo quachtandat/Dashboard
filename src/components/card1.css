@@ -1,0 +1,13 @@
+.card-1 h2{
+  font-family: Epilogue;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 30px;
+  text-align: left;
+  color: rgba(23, 23, 37, 1);
+  padding: 50px 0;
+}
+.card-1{
+  position: relative;
+  margin: 25px;
+}

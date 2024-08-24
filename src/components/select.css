@@ -1,0 +1,51 @@
+.Tech h1{
+    font-family: Epilogue;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 26px;
+    text-align: left;
+    color: rgba(23, 23, 37, 1);
+}
+.Tech-in{
+    display: flex;
+    gap:20px;
+    
+}
+.Tech-in ul{
+    list-style: none;
+}
+.Tech-in ul li{
+    font-family: Epilogue;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+    text-align: left;
+    color: rgba(75, 82, 100, 1);
+    cursor: pointer;
+}
+.dropdown-content {
+    display: flex;
+    justify-content: space-around; /* Khoảng cách đều giữa các mục */
+    gap: 75px; /* Khoảng cách giữa các mục */
+    background-color: rgb(255,255,255,1);
+    padding: 40px;
+    border-radius: 10px;
+    transform: translateX(25%);
+}
+@media (max-width: 1024px) {
+    .dropdown-content {
+        display: grid;
+        gap: 10px; /* Khoảng cách giữa các mục */
+        background-color: rgb(255, 255, 255,1);
+        padding: 40px;
+        border-radius: 10px;
+        transform: translateX(-25%);
+        position: absolute;
+        z-index: 1000;
+        top:0;
+        left: 60px;
+        bottom: 0;
+        width: 327px;
+        height: 800px;
+    }
+}

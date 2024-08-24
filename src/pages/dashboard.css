@@ -1,0 +1,56 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+* {
+  margin: 0;
+  padding: 0;
+  font: inherit;
+}
+img,
+picture,
+svg,
+video {
+  display: block;
+  max-width: 100%;
+}
+input,
+select,
+textarea {
+  background-color: transparent;
+  outline: none;
+}
+button {
+  cursor: pointer;
+  background-color: transparent;
+  outline: none;
+  border: 0;
+}
+.wrap{
+    max-width: 1439px;
+    margin: 0 auto;
+    display: block;
+    position: relative;
+    max-height: 1460px;
+}
+.wrap-in{
+    margin: 50px;
+    position: relative;
+    display: flex;
+    gap:50px;;
+    height: 100%;
+}
+.page1{
+  height: 50px;
+}
+.page{
+  margin: 25px;
+}
+@media (max-width: 1024px) {
+  .page{
+    width: 327px;
+    height: 119px;
+    margin: 0;
+  }
+}

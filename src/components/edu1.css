@@ -1,0 +1,29 @@
+.Ed1{
+    display: flex;
+    justify-content: space-between;
+    width: 743px;
+    float: right;
+    position: relative;
+    height: 50px;
+}
+.Ed1 h1{
+    font-family: Epilogue;
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 38px;
+    text-align: center;
+    color: rgba(75, 82, 100, 1);
+}
+@media (max-width: 1024px) {
+    .Ed1{
+        float: none;
+        width: 327px;
+    }
+    .Ed1 h1{
+        font-family: Epilogue;
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 26px;
+        text-align: center;
+    }
+}

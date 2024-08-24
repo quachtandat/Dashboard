@@ -1,0 +1,71 @@
+.slider {  
+    position: relative;  
+    overflow: hidden;  
+    margin: auto;  
+    max-width: 1242px;  
+}  
+
+.slides {  
+    display: grid; /* Sử dụng flex cho slides */  
+    transition: transform 0.5s ease;  
+}  
+
+.slide {  
+    min-width: 100%; /* Mỗi slide sẽ chiếm toàn bộ chiều rộng */  
+    display: flex;  
+    flex-direction: column; /* Sắp xếp tiêu đề và các card theo cột */  
+    justify-content: start;  
+    align-items: center;  
+    background-color: #f0f0f0; /* Màu nền cho mỗi slide */  
+}  
+
+.card-container {  
+    display: grid; /* Sử dụng grid để sắp xếp cards */  
+    grid-template-columns: repeat(4, 1fr); /* 4 cột */  
+    gap: 10px; /* Khoảng cách giữa các card */  
+    width: 100%; /* Đảm bảo nó chiếm toàn bộ chiều rộng */  
+}  
+
+
+
+.dots {  
+    text-align: center;  
+    margin-top: 10px;  
+}  
+
+.dot {  
+    display: inline-block;  
+    width: 30px;
+    height:30px;
+    padding: 2px 10px 2px 10px;   
+    line-height: 20px;  
+    border-radius: 10px ;  
+    margin: 0 5px;  
+    cursor: pointer;  
+    text-align: center;  
+    color: rgba(128, 129, 145, 1);  
+    font-weight: 600; 
+}  
+
+.dot.active {  
+    background: rgba(140, 109, 253, 1); 
+    color:rgba(255, 255, 255, 1);
+    font-weight: 600; 
+}
+/* Thêm kiểu cho nút */  
+.slider-button {  
+    background-color:rgb(255,255,255,1);  
+    border: none;  
+    padding: 10px 10px;  
+    border-radius: 10px;  
+    cursor: pointer;  
+    box-shadow: 0px 3px 6px 0px rgba(131, 146, 166, 0.1);
+    margin: 10px; /* Khoảng cách giữa nút và slide */  
+    font-size: 16px;  
+}  
+.prev-next-btns{
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+}
+

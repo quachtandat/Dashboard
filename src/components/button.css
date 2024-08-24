@@ -1,0 +1,13 @@
+.header-r-2 {
+    width: 191px;
+    height: 52px;
+    padding: 13px;
+    border-radius: 10px ;
+    background: rgba(140, 109, 253, 1);
+    font-family: Epilogue;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 26px;
+    text-align: center;
+    color: rgba(255, 255, 255, 1);
+}

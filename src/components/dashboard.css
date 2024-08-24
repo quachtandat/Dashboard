@@ -1,0 +1,36 @@
+.main{
+    margin: 25px;
+    position: relative;
+}
+.main-in{
+    display: flex;
+    gap:50px;
+    width: 100%;
+}
+.main h1{
+    font-family: Epilogue;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 30px;
+    text-align: left;
+    color: rgba(23, 23, 37, 1);
+}
+.main span{
+    font-family: Epilogue;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 30px;
+    text-align: left;
+    color: rgb(47, 47, 240);
+}
+
+@media (max-width: 1024px) {
+    .main-in{
+        display: grid;
+    }
+    .wrap-in{
+        width: 375px;
+        height: 1530px;
+        padding: 16px 0px 16px 24px;
+    }
+}

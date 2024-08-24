@@ -1,0 +1,41 @@
+.nav-bar{
+    display: grid;
+    gap: 20px;
+    width: 76px;
+    padding: 40px 14px;
+    border-radius: 20px;
+    background: rgba(255, 255, 255, 1);
+    box-shadow: 10px 10px 20px 0px rgba(218, 213, 213, 0.15);
+    border: none;
+    position: fixed;
+    left: 0;
+    z-index: 100;
+    margin: 0 25px 25px 25px;
+  }
+  .nav-bar-1{
+    display: grid;
+    grid-template-columns: repeat(1fr,1);
+    gap: 20px;
+  }
+  .nav-bar-1 img{
+    cursor: pointer;
+  }
+  .nav-bar-2 {
+    background: rgba(255, 255, 255, 1);
+    width: 48px;
+    height: 48px;
+    box-shadow: 10px 10px 20px 0px rgba(211, 211, 211, 0.25);
+    border: none;
+  }
+  body.dark-mode {
+    background-color: #121212;
+    color: #ffffff;
+  }
+  .nav-bar-2 img{
+    cursor: pointer;
+  }
+  @media (max-width: 1024px) {
+    .nav-bar{
+        display: none;
+    }
+}

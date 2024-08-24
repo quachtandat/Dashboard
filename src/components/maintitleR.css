@@ -1,0 +1,75 @@
+.card-1-r{
+    width: 435px;
+    height: 232px;
+  }
+  .card-1-r-1{
+    display: flex;
+    gap:20px;
+    padding-bottom: 10px;
+    align-items: center;
+  }
+  .card-1-r-1 p{
+    font-family: Epilogue;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 22px;
+    text-align: center;
+    color: rgba(128, 129, 145, 1);
+  }
+  .card-1-r-2 h2{
+    font-family: Epilogue;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 30px;
+    text-align: left;
+    color: rgba(23, 23, 37, 1);
+    padding-bottom: 10px;
+  }
+  .card-1-r-2 p{
+    font-family: Epilogue;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+    text-align: left;
+    color: rgba(128, 129, 145, 1);
+    padding-bottom: 20px;
+  }
+  .card-1-r-3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 20px;
+  }
+  .card-1-r-3-1{
+    width: 275px;
+    height: 5px;
+    border-radius: 5px;
+    background: rgba(74, 205, 141, 1);  
+  }
+  .card-1-r-3-2{
+    width: 158px;
+    height: 5px;
+    border-radius: 5px;
+    background: rgba(239, 239, 239, 1);
+  }
+  .card-1-r-4{
+    display: flex;
+    justify-content: space-between;
+  }
+  .card-1-r-4-1 h2{
+    font-family: Epilogue;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 30px;
+    text-align: left;
+    color: rgba(75, 82, 100, 1);
+  }
+  .card-1-r-4-1 p{
+    font-family: Epilogue;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 26px;
+    text-align: left;
+    color: rgba(178, 179, 189, 1);
+  }
+  
